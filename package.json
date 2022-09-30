@@ -1,0 +1,20 @@
+{
+  "name": "mini-webpack",
+  "version": "1.0.0",
+  "description": "手写 webpack，用于熟悉其打包流程",
+  "main": "index.js",
+  "scripts": {
+    "build": "node ./build.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/generator": "^7.19.3",
+    "@babel/parser": "^7.19.3",
+    "@babel/traverse": "^7.19.3",
+    "@babel/types": "^7.19.3",
+    "fs-extra": "^10.1.0",
+    "tapable": "^2.2.1"
+  }
+}
